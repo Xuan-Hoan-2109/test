@@ -95,7 +95,7 @@
         transform-origin: center center;
     }
     .ic.menu:focus ~ .line { 
-        background-color: rgb(0, 0, 0) !important;
+        background-color: #000000 !important;
     }
     
     .ic.menu:focus .line:nth-child(1) { 
@@ -169,7 +169,7 @@
     }
     .ic.menu:focus ~ .main-nav { 
         width: 100%;
-        color: rgb(0, 0, 0);
+        color: #000000;
     }
     .ic.menu:focus ~ .main-nav::after {
         width: 100%;
@@ -235,11 +235,6 @@
         width: 100%;
   
     }
-    #img3 {
-        height: 350px;
-        object-fit: cover;
-        object-position: 0px -105px;
-    }
     .item--subsection h1 {
         font-size: 25px;
         margin-bottom: 0;
@@ -270,7 +265,7 @@
         justify-content: center;
     }
     .footer {
-        width: 335px;
+        width: 90%;
         margin: 45px 0px 45px 0px;
     }
     .footer__logo {

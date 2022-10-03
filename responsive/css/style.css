@@ -96,13 +96,7 @@ body {
         position: relative;
     }
     .item--subsection img{
-        vertical-align: middle;
-    }
-    .item--subsection #img1 {
-        width: 100%;
-        height: 400px;
-        object-position: -125px 0px ;
-        object-fit: none;
+       width: 100%;
     }
     .subsection--classify {
         position: absolute;
@@ -126,27 +120,6 @@ body {
         font-size: 18px;
         line-height: 1.5;
         margin-top: 10px;
-    }
-    
-    .item--subsection #img2 {
-        width: 100%;   
-        height: 200px;
-        object-fit: none;
-        object-position: 0px -50px;
-    }
-    .item--subsection #img3 {
-        height: 400px;
-        width: 100%;
-        object-fit: none;
-        object-position: 0px -145px;
-    }
-    .betwen__item:nth-child(2) .item--subsection #img2,
-    .betwen__item:nth-child(3) .item--subsection #img2 {
-        object-position: -100px -150px;
-    }
-    .betwen__item:nth-child(2) .item--subsection #img3,
-    .betwen__item:nth-child(3) .item--subsection #img3 {
-        object-position: 0px -145px;
     }
     .component-footer {
         width: 100%;
